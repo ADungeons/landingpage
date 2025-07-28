@@ -1,0 +1,90 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(145deg, #0c0f1b, #1a1e3a);
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #101222;
+}
+.logo { font-size: 1.8rem; font-weight: bold; color: #8c6dfd; }
+nav a {
+    color: #ccc;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+}
+.hero-content {
+    flex: 1 1 45%;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero-content p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #cdd4f2;
+}
+.cta-btn {
+    background: #38b6ff;
+    color: #000;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.hero-image {
+    flex: 1 1 45%;
+    text-align: center;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+.rpg-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.card img {
+    width: 64px;
+    margin-bottom: 1rem;
+}
+.rpg-quote {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #f0e6d2;
+    margin: 3rem auto;
+    max-width: 600px;
+    border-left: 4px solid #8c6dfd;
+    padding-left: 1rem;
+}
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    background-color: #101222;
+    color: #999;
+}
