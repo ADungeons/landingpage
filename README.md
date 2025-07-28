@@ -1,4 +1,4 @@
-# 🧙‍♂️  ADungeons — Landing Page Oficial
+# ADungeons — Landing Page Oficial <img src="assets/images/logo_solid_bg.png" width="135" align="left">
 
 Este repositório contém a landing page oficial do **ADungeons**, um aplicativo de Realidade Aumentada (AR) que leva sua campanha de RPG de mesa a um novo nível de imersão.
 
