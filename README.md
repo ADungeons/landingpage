@@ -6,8 +6,6 @@ A proposta da página é apresentar o produto, funcionalidades, diferenciais e f
 
 > 🎲 "Transforme sua mesa em um campo de batalha épico com ADungeons e seu celular."
 
----
-
 ## 🔗 Acesse a Página
 
 > **[ADungeons - Elevando o RPG ao próximo nível](https://adungeons.github.io/landingpage/)**
@@ -22,8 +20,6 @@ A proposta da página é apresentar o produto, funcionalidades, diferenciais e f
 - **Screenshots:** Prévia das interfaces para mestres e jogadores
 - **FAQ:** Perguntas frequentes da comunidade
 - **Call to Action:** Convite para baixar, testar ou apoiar o projeto
-
----
 
 ## 📁 Estrutura do Projeto
 
