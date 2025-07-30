@@ -1,8 +1,11 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(145deg, #0c0f1b, #1a1e3a);
+    font-family: 'UnifrakturCook', cursive;
+    background:
+        linear-gradient(145deg, rgba(12,15,27,0.85), rgba(26,30,58,0.85)), 
+        url('../assets/images/mesa_rpg.jpg') no-repeat center center fixed;
+    background-size: 100% 100%;
     color: white;
 }
 header {
@@ -12,6 +15,12 @@ header {
     padding: 1rem 2rem;
     background-color: #101222;
 }
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .logo { font-size: 1.8rem; font-weight: bold; color: #8c6dfd; }
 nav a {
     color: #ccc;
@@ -68,9 +77,39 @@ nav a {
     border: 1px solid rgba(255,255,255,0.1);
 }
 .card img {
-    width: 64px;
+    width: 300px;
     margin-bottom: 1rem;
 }
+
+.card-img-grande {
+    width: 100%;   /* ajuste conforme desejar */
+    height: auto;
+}
+
+.rpg-card-boss {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-boss {
+    max-width: 900px;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.card-boss img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
 .rpg-quote {
     font-family: 'Cinzel', serif;
     text-align: center;
